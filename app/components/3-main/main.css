@@ -226,7 +226,7 @@ main.flex section.right-section .card .bg .box {
     background-color: rgb(0 0 0 / 7%);
 }
 
-main.flex section.right-section .container {
+main.flex section.right-section .box {
     display: flex;
     margin-top: 1rem;
     margin-top: 40px;
@@ -239,31 +239,31 @@ main.flex section.right-section .container {
     margin-bottom: 2rem;
 }
 
-main.flex section.right-section .container div {
+main.flex section.right-section .box div {
     text-align: center;
 }
 
-main.flex section.right-section .container .card .bg .box h1 {
+main.flex section.right-section .box .card .bg .box h1 {
     color: var(--title);
     font-size: 1.3rem;
 }
 
-main.flex section.right-section .container .card .bg .box p {
+main.flex section.right-section .box .card .bg .box p {
     color: var(--subtitle);
     font-size: 0.7rem;
     margin: 16px 0px;
 }
 
-main.flex section.right-section .container .card .bg .box .history {
+main.flex section.right-section .box .card .bg .box .history {
     position: absolute;
     top: 52%;
     right: 10px;
 }
 
-main.flex section.right-section .container .card .bg .icons {
+main.flex section.right-section .box .card .bg .icons {
     display: flex;
 }
-main.flex section.right-section .container .card .bg .icons .icon {
+main.flex section.right-section .box .card .bg .icons .icon {
     color: var(--subtitle);
     width: 36px;
     transition: 0.3s;
@@ -273,7 +273,7 @@ main.flex section.right-section .container .card .bg .icons .icon {
     -o-transition: 0.3s;
 }
 
-main.flex section.right-section .container .card .bg .icons .icon:hover {
+main.flex section.right-section .box .card .bg .icons .icon:hover {
     color: var(--blue);
     scale: 1.1;
     rotate: 15deg;

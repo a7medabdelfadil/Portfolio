@@ -58,7 +58,7 @@ button:disabled {
 }
 
 .container {
-  background-color: var(--secondary-bg);
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
   width: 80%;
   margin-left: auto;
   margin-right: auto;

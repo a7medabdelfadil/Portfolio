@@ -81,9 +81,6 @@ const myProjects = [
         demo: 'https://abufadel.github.io/Temp2_frontend_mentor',
         rebo: 'https://github.com/abufadel/Temp2_frontend_mentor'
     },
-    
-    
-    
 ]
 
 const Main = () => {
@@ -116,11 +113,9 @@ const Main = () => {
                 </button>
                 <button onClick={() => {
                     handleClick('js')
-
                 }} class={currentActive === "js" ? "Btn active" : "Btn"}>
                     JavaScript
                 </button>
-
                 <button onClick={() => {
                     handleClick('htmlCss')
                 }} class={currentActive === "htmlCss" ? "Btn active" : "Btn"}>
@@ -135,7 +130,7 @@ const Main = () => {
             </section>
             <section className='right-section flex'>
 
-                <div className="container">
+                <div className="box">
                 <AnimatePresence>
 
 

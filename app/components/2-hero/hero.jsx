@@ -46,7 +46,7 @@ const Hero = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 2 }}
                     > 
-                        Hey, I&apos;m<a href="#">Abufadel</a>, React.js developer | Currently studying computer science,                        
+                        Hey, I&apos;m<a href="#">Ahmed Abdelfadeel</a>, React.js developer | Currently studying computer science,                        
                     </motion.p>
                     <motion.p 
                         initial={{ opacity: 0 }}
