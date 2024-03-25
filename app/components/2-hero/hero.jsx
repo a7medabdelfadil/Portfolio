@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import Image from 'next/image'
-import abufadel from './assets/imgs/fadel2.png';
+import abufadel from './assets/imgs/fadel.jpg';
 import { motion } from "framer-motion"
 
 const Hero = () => {
